@@ -10,3 +10,9 @@ Content-Type: application/json
     "name": "SUV",
     "description": "Categoria de carro SUV"
 }
+
+###
+
+# @name list_categories
+GET {{baseUrl}}/categories
+Content-Type: application/json

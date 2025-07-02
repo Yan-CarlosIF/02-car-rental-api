@@ -18,4 +18,14 @@ export class CategoriesRepository {
 
     this.categories.push(newCategory);
   }
+
+  findByName(name: string) {
+    const category = this.categories.find((category) => category.name === name);
+
+    return category;
+  }
+
+  get list() {
+    return this.categories;
+  }
 }
