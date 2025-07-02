@@ -1,0 +1,12 @@
+@baseUrl = http://localhost:3333
+
+### 
+
+# @name create_category
+POST {{baseUrl}}/categories
+Content-Type: application/json
+
+{
+    "name": "SUV",
+    "description": "Categoria de carro SUV"
+}
