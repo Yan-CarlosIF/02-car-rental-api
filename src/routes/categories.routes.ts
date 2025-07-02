@@ -16,5 +16,5 @@ categoriesRoutes.post("/", (request, response) => {
 });
 
 categoriesRoutes.get("/", (_, response) => {
-  return response.json(categoriesRepository.list);
+  return response.json(categoriesRepository.list());
 });

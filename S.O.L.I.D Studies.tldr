@@ -1,0 +1,1069 @@
+{
+	"tldrawFileFormatVersion": 1,
+	"schema": {
+		"schemaVersion": 2,
+		"sequences": {
+			"com.tldraw.store": 4,
+			"com.tldraw.asset": 1,
+			"com.tldraw.camera": 1,
+			"com.tldraw.document": 2,
+			"com.tldraw.instance": 25,
+			"com.tldraw.instance_page_state": 5,
+			"com.tldraw.page": 1,
+			"com.tldraw.instance_presence": 6,
+			"com.tldraw.pointer": 1,
+			"com.tldraw.shape": 4,
+			"com.tldraw.asset.bookmark": 2,
+			"com.tldraw.asset.image": 5,
+			"com.tldraw.asset.video": 5,
+			"com.tldraw.shape.group": 0,
+			"com.tldraw.shape.text": 3,
+			"com.tldraw.shape.bookmark": 2,
+			"com.tldraw.shape.draw": 2,
+			"com.tldraw.shape.geo": 10,
+			"com.tldraw.shape.note": 9,
+			"com.tldraw.shape.line": 5,
+			"com.tldraw.shape.frame": 1,
+			"com.tldraw.shape.arrow": 6,
+			"com.tldraw.shape.highlight": 1,
+			"com.tldraw.shape.embed": 4,
+			"com.tldraw.shape.image": 5,
+			"com.tldraw.shape.video": 4,
+			"com.tldraw.binding.arrow": 1
+		}
+	},
+	"records": [
+		{
+			"meta": {},
+			"id": "binding:gVGshp6aTUN3AS1-ILihY",
+			"type": "arrow",
+			"fromId": "shape:VUN-_tangzySUJrf22knl",
+			"toId": "shape:BmHB6pWcDpddkHdakU4iV",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.02257343691215199,
+					"y": 0.9335477871910175
+				},
+				"snap": "none",
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
+			"id": "pointer:pointer",
+			"typeName": "pointer",
+			"x": 378.71463642345606,
+			"y": 979.2277435173023,
+			"lastActivityTimestamp": 1751485052406,
+			"meta": {}
+		},
+		{
+			"meta": {},
+			"id": "binding:I31Fhi8ywW8P8X0nH9MdT",
+			"type": "arrow",
+			"fromId": "shape:HDdaSYEw-jpg-pkUFBREr",
+			"toId": "shape:BmHB6pWcDpddkHdakU4iV",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.9575337578599978,
+					"y": 0.5391214156074162
+				},
+				"snap": "none",
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 54.98370146738279,
+			"y": 460.55554842065953,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:kkOu5z4n-TeAukNTb7Ufd",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "s",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": -76.171875,
+					"y": -2.5
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
+				"font": "mono",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a72QQ",
+			"typeName": "shape"
+		},
+		{
+			"x": 875.0325345063771,
+			"y": 87.64777728164051,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:m4gcFNGA9vQCgOWa7Ykz2",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "s",
+				"w": 186.04953135614798,
+				"font": "mono",
+				"textAlign": "middle",
+				"autoSize": false,
+				"scale": 1.1715817694369972,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Codigo que implementa algo de alto nível não deve depender de outro que implementa algo de baixo nível"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a99wF",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:-sTh4X6Hj8ZPspgw5rNZC",
+			"type": "arrow",
+			"fromId": "shape:dV3J4HwdhJc7PofyLhGgT",
+			"toId": "shape:BmHB6pWcDpddkHdakU4iV",
+			"props": {
+				"isPrecise": false,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.49999999999999994,
+					"y": 0.5
+				},
+				"snap": "center",
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 68.41237571755369,
+			"y": -174.87862032246676,
+			"z": 0.6951790085324888,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		},
+		{
+			"meta": {},
+			"id": "binding:oXgMa5PFj5Dtfk8vtx8Zw",
+			"type": "arrow",
+			"fromId": "shape:heiMWBoIPvKRiPUWpPw9v",
+			"toId": "shape:BANl_e5PGfrm0RZdPqypG",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.4929436272768436,
+					"y": 0.04839783071448096
+				},
+				"snap": "none",
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 48.17707824707031,
+			"y": 350.83331298828125,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:m77dcE978tqP65DqFB0_H",
+			"type": "note",
+			"props": {
+				"color": "black",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "S - SRP"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Single Responsibility Principle"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "        (Princípio da Responsabilidade Única)"
+								}
+							]
+						}
+					]
+				},
+				"size": "l",
+				"font": "mono",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"labelColor": "black",
+				"growY": 15.645828247070312,
+				"fontSizeAdjustment": 17,
+				"url": "",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a20ud",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:KT5zykzMBTcBCqWPpBoyE",
+			"type": "arrow",
+			"fromId": "shape:heiMWBoIPvKRiPUWpPw9v",
+			"toId": "shape:BmHB6pWcDpddkHdakU4iV",
+			"props": {
+				"isPrecise": false,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.49999999999999994,
+					"y": 0.5
+				},
+				"snap": "center",
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:rl-I3LjsL0t9-fReSZBOs"
+			],
+			"hoveredShapeId": null,
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"meta": {},
+			"id": "binding:5M_YlwgLnQ8TnxR2wMMvJ",
+			"type": "arrow",
+			"fromId": "shape:kkOu5z4n-TeAukNTb7Ufd",
+			"toId": "shape:3xOZuNcoZq6NU57uoRpgl",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.9812196588600788,
+					"y": 0.4566833502898405
+				},
+				"snap": "none",
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 328.33331298828125,
+			"y": 360.8333435058594,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:qi2DOq3WtQoQIzD6sPBwI",
+			"type": "note",
+			"props": {
+				"color": "black",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "O - OCP "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Open-Closed Principle"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "        (Princípio aberto/fechado)"
+								}
+							]
+						}
+					]
+				},
+				"size": "l",
+				"font": "mono",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"labelColor": "black",
+				"growY": 0,
+				"fontSizeAdjustment": 18,
+				"url": "",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a30jc",
+			"typeName": "shape"
+		},
+		{
+			"x": 228.48956298828125,
+			"y": 152.13541221618652,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:BmHB6pWcDpddkHdakU4iV",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "l",
+				"w": 207.65625000000003,
+				"font": "mono",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "S.O.L.I.D"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a1",
+			"typeName": "shape"
+		},
+		{
+			"x": 320.3385314941406,
+			"y": 191.11110245740008,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:dV3J4HwdhJc7PofyLhGgT",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "l",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": -32.838531494140625,
+					"y": 407.5
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
+				"font": "mono",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a1Ugo",
+			"typeName": "shape"
+		},
+		{
+			"x": 649.3585716996752,
+			"y": 559.9550354008354,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:BANl_e5PGfrm0RZdPqypG",
+			"type": "note",
+			"props": {
+				"color": "black",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "I - ISP"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Interface Segregation Principle"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "(Princípio da Segregação de Interface)"
+								}
+							]
+						}
+					]
+				},
+				"size": "s",
+				"font": "mono",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"labelColor": "black",
+				"growY": 26.270828247070312,
+				"fontSizeAdjustment": 18,
+				"url": "",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aA9a7",
+			"typeName": "shape"
+		},
+		{
+			"x": 283.671875,
+			"y": 191.66665649414065,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:OA75oFo9RTE3aSGX3z2AF",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "l",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 119.66143798828125,
+					"y": 169.1666564941406
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
+				"font": "mono",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a48PC",
+			"typeName": "shape"
+		},
+		{
+			"x": 188.33334350585938,
+			"y": 599.4444154456813,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:lqEKxfadb72jIfuKzoGRI",
+			"type": "note",
+			"props": {
+				"color": "black",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "L - LSP"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Liskov Substitution Principle"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "(Princípio da substutituição de Liskov)"
+								}
+							]
+						}
+					]
+				},
+				"size": "l",
+				"font": "mono",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"labelColor": "black",
+				"growY": 37.104156494140625,
+				"fontSizeAdjustment": 19,
+				"url": "",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a5AMz",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:qdMMPums4c6WTPAavVwwS",
+			"type": "arrow",
+			"fromId": "shape:OA75oFo9RTE3aSGX3z2AF",
+			"toId": "shape:qi2DOq3WtQoQIzD6sPBwI",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.41666671752929685,
+					"y": 0.03333328247070313
+				},
+				"snap": "none",
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 658.1607758997559,
+			"y": 75.00003051757815,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:7SxIruQqWL-gW-vUzHh_H",
+			"type": "note",
+			"props": {
+				"color": "black",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "D - DIP"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Dependency Inversion Principle"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "(Pricípio da Inversão de dependência)"
+								}
+							]
+						}
+					]
+				},
+				"size": "s",
+				"font": "mono",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"labelColor": "black",
+				"growY": 26.270828247070312,
+				"fontSizeAdjustment": 18,
+				"url": "",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a8BmI",
+			"typeName": "shape"
+		},
+		{
+			"x": -244.20897316945803,
+			"y": 380.42532991480016,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:3xOZuNcoZq6NU57uoRpgl",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "s",
+				"w": 221.34441018117673,
+				"font": "mono",
+				"textAlign": "middle",
+				"autoSize": false,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Uma classe deve ter apenas um motivo para ser alterada, se ela tiver mais de uma responsabilidade deve ser dividida em classes menores"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a60jU",
+			"typeName": "shape"
+		},
+		{
+			"x": 427.32743239389646,
+			"y": 178.3333435058594,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:HDdaSYEw-jpg-pkUFBREr",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "s",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 225.9895629882813,
+					"y": 0
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
+				"font": "mono",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a1MnV",
+			"typeName": "shape"
+		},
+		{
+			"x": 72.7469274492421,
+			"y": 865.1459981243795,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:rl-I3LjsL0t9-fReSZBOs",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 423.21237149792455,
+				"font": "mono",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 0.992087474829959,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Se uma classe "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "italic"
+										}
+									],
+									"text": "S"
+								},
+								{
+									"type": "text",
+									"text": " é um sub-tipo de "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "italic"
+										}
+									],
+									"text": "T"
+								},
+								{
+									"type": "text",
+									"text": ", todos os objetos do tipo "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "italic"
+										}
+									],
+									"text": "T"
+								},
+								{
+									"type": "text",
+									"text": " podem ser substituidos pelos objetos do tipo "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "italic"
+										}
+									],
+									"text": "S"
+								},
+								{
+									"type": "text",
+									"text": ", sem que seja necessário alterar as propriedades desse programa"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aC1DN",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "page:page",
+			"name": "Page 1",
+			"index": "a1",
+			"typeName": "page"
+		},
+		{
+			"gridSize": 10,
+			"name": "",
+			"meta": {},
+			"id": "document:document",
+			"typeName": "document"
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {
+				"tldraw:font": "mono"
+			},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "move",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 1349.1666259765625,
+				"h": 753.3333129882812
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"isFocused": true,
+			"devicePixelRatio": 1.2000000476837158,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		},
+		{
+			"meta": {},
+			"id": "binding:DHGEvXIocAbqTZmwB-jJA",
+			"type": "arrow",
+			"fromId": "shape:kkOu5z4n-TeAukNTb7Ufd",
+			"toId": "shape:m77dcE978tqP65DqFB0_H",
+			"props": {
+				"isPrecise": false,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.5,
+					"y": 0.5
+				},
+				"snap": "center",
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 233.1770782470703,
+			"y": 197.50000000000003,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:VUN-_tangzySUJrf22knl",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "l",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": -80.67707824707031,
+					"y": 146.6666564941406
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
+				"font": "mono",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a1cAq",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:Qg2vR-0zDF2q9QWIMNWDK",
+			"type": "arrow",
+			"fromId": "shape:OA75oFo9RTE3aSGX3z2AF",
+			"toId": "shape:BmHB6pWcDpddkHdakU4iV",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.26573874858916474,
+					"y": 0.813504705398413
+				},
+				"snap": "none",
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 366.643236559249,
+			"y": 190.00637455778835,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:heiMWBoIPvKRiPUWpPw9v",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "s",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": -42.71591709598074,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 379.89283773295006,
+					"y": 369.74940853709677
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
+				"font": "mono",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aB3rJ",
+			"typeName": "shape"
+		}
+	]
+}
