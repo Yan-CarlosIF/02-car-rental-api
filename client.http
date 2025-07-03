@@ -16,3 +16,15 @@ Content-Type: application/json
 # @name list_categories
 GET {{baseUrl}}/categories
 Content-Type: application/json
+
+###
+
+# @name create_specification
+
+POST {{baseUrl}}/specifications
+Content-Type: application/json
+
+{
+    "name": "Câmbio automático",
+    "description": "Carro com câmbio automático"
+}
