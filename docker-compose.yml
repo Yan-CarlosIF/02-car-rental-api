@@ -1,6 +1,19 @@
 version: "3.7"
 
 services:
+  database:
+    image: postgres
+    container_name: rent-car-db
+    restart: always
+    ports:
+      - 5433:5432
+    environment:
+      - POSTGRES_USER=docker
+      - POSTGRES_PASSWORD=123456
+      - POSTGRES_DB=rent-car
+    volumes:
+      - pgdata:/data/postgres
+
   app:
     build: .
     container_name: rent-car-api
@@ -17,3 +30,9 @@ services:
           target: /usr/app/tsconfig.json
         - action: rebuild
           path: package.json
+    depends_on:
+      - database
+
+volumes:
+  pgdata:
+    driver: local

@@ -1,0 +1,9 @@
+{
+  "type": "postgres",
+  "host": "database",
+  "username": "docker",
+  "password": "123456",
+  "database": "rent-car",
+  "synchronize": true,
+  "logging": false
+}
