@@ -1,9 +1,12 @@
 {
   "type": "postgres",
-  "host": "database",
+  "host": "rent-car-db",
+  "port": 5432,
   "username": "docker",
   "password": "123456",
   "database": "rent-car",
-  "synchronize": true,
-  "logging": false
+  "migrations": ["./src/database/migrations/*.ts"],
+  "cli": {
+    "migrationsDir": "./src/database/migrations"
+  }
 }
