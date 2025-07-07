@@ -1,5 +1,6 @@
 @baseUrl = http://localhost:3333
 
+@authToken = {{create_session.response.body.token}}
 ### 
 
 # @name create_category
@@ -23,6 +24,7 @@ Content-Type: application/json
 
 POST {{baseUrl}}/specifications
 Content-Type: application/json
+Authorization: Bearer {{authToken}}
 
 {
     "name": "Câmbio automático",
