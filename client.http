@@ -28,3 +28,17 @@ Content-Type: application/json
     "name": "Câmbio automático",
     "description": "Carro com câmbio automático"
 }
+
+###
+
+# @name create_user
+
+POST {{baseUrl}}/users
+Content-Type: application/json
+
+{
+    "name": "Yan Carlos Oliveira",
+    "email": "yan@gmail.com",
+    "password": "1234",
+    "driver_license": "123456"
+}

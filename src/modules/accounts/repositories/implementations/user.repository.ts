@@ -1,0 +1,28 @@
+import { getRepository, Repository } from "typeorm";
+import { ICreateUserDTO } from "../../dtos/IcreateUserDTO";
+import { User } from "../../entities/User";
+import { IUsersRepository } from "../Iuser-repository";
+
+export class UsersRepository implements IUsersRepository {
+  private repository: Repository<User>;
+
+  constructor() {
+    this.repository = getRepository(User);
+  }
+
+  async create({ name, password, email, driver_license }: ICreateUserDTO) {
+    const user = this.repository.create({
+      name,
+      password,
+      email,
+      driver_license,
+    });
+
+    await this.repository.save(user);
+  }
+
+  findByEmail(email: string): Promise<User | undefined> {
+    const user = this.repository.findOne({ email });
+    return user;
+  }
+}
