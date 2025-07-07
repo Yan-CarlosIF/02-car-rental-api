@@ -42,3 +42,15 @@ Content-Type: application/json
     "password": "1234",
     "driver_license": "123456"
 }
+
+###
+
+# @name create_session
+
+POST {{baseUrl}}/sessions
+Content-Type: application/json
+
+{
+    "email": "yan@gmail.com",
+    "password": "1234"
+}
