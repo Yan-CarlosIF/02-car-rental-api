@@ -18,6 +18,7 @@ categoriesRoutes.get("/", listCategoriesController.handle);
 
 categoriesRoutes.post(
   "/import",
+  // @ts-ignore
   upload.single("file"),
   importCategoryController.handle
 );

@@ -1,4 +1,4 @@
-import { AppError } from "@errors/app-error";
+import { AppError } from "@shared/errors/app-error";
 import { CategoritesRepositoryInMemory } from "@modules/cars/repositories/in-memory/categories-in-memory.repository";
 import { CreateCategoryUseCase } from "./create-category.useCase";
 
