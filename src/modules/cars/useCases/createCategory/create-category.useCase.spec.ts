@@ -1,5 +1,5 @@
-import { AppError } from "../../../../errors/app-error";
-import { CategoritesRepositoryInMemory } from "../../repositories/in-memory/categories-in-memory.repository";
+import { AppError } from "@errors/app-error";
+import { CategoritesRepositoryInMemory } from "@modules/cars/repositories/in-memory/categories-in-memory.repository";
 import { CreateCategoryUseCase } from "./create-category.useCase";
 
 describe("Create a Category", () => {
@@ -12,11 +12,6 @@ describe("Create a Category", () => {
     createCategoryUseCase = new CreateCategoryUseCase(
       categoriesRepositoryInMemory
     );
-
-    return {
-      categoriesRepositoryInMemory,
-      createCategoryUseCase,
-    };
   });
 
   it("Should be able to create a new category", async () => {

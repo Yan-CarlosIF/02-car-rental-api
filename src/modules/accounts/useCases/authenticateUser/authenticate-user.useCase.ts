@@ -1,8 +1,8 @@
 import { inject, injectable } from "tsyringe";
-import { IUsersRepository } from "../../repositories/Iuser-repository";
+import { IUsersRepository } from "@modules/accounts/repositories/Iuser-repository";
 import { compare } from "bcryptjs";
 import { sign } from "jsonwebtoken";
-import { AppError } from "../../../../errors/app-error";
+import { AppError } from "@errors/app-error";
 
 interface IRequest {
   email: string;
@@ -31,7 +31,7 @@ export class AuthenticateUserUseCase {
       throw new AppError("Email or password incorrect!");
     }
 
-    const passwordMatch = compare(password, user.password);
+    const passwordMatch = await compare(password, user.password);
 
     if (!passwordMatch) {
       throw new AppError("Email or password incorrect!");
