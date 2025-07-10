@@ -20,9 +20,8 @@
     "strict": true,
     "noImplicitAny": true,
     "strictPropertyInitialization": false,
-    "skipLibCheck": true,
-    "typeRoots": ["./src/@types", "./node_modules/@types"]
+    "skipLibCheck": true
   },
   "include": ["src/**/*"],
-  "exclude": ["dist", "node_modules"],
+  "exclude": ["dist", "node_modules"]
 }
