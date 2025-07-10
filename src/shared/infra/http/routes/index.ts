@@ -3,7 +3,7 @@ import { categoriesRoutes } from "./categories.routes";
 import { specificationsRoutes } from "./specifications.routes";
 import { usersRoutes } from "./user.routes";
 import { authenticateRoutes } from "./authenticate.routes";
-import { carsRoutes } from "./car.routes";
+import { carsRoutes } from "./cars.routes";
 
 export const router = Router();
 
