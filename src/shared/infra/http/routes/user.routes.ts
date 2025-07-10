@@ -5,7 +5,7 @@ import { CreateUserController } from "@modules/accounts/useCases/createUser/crea
 import { UpdateUserAvatarController } from "@modules/accounts/useCases/updateUserAvatar/update-user-avatar.controller";
 
 import uploadConfig from "@config/upload";
-import { ensureAuthenticated } from "@shared/infra/http/middlewares/ensureAuthenticate.middleware";
+import { ensureAuthenticated } from "@shared/infra/http/middlewares/ensure-authenticate.middleware";
 
 const createUserController = new CreateUserController();
 const updateUserAvatarController = new UpdateUserAvatarController();
