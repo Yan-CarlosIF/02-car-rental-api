@@ -3,10 +3,10 @@ import { ICarsRepository } from "@modules/cars/repositories/Icars.repository";
 import { AppError } from "@shared/errors/app-error";
 import { inject, injectable } from "tsyringe";
 
-// @injectable()
+@injectable()
 export class CreateCarUseCase {
   constructor(
-    // @inject("CarsRepository")
+    @inject("CarsRepository")
     private carsRepository: ICarsRepository
   ) {}
 

@@ -1,24 +1,48 @@
+import {
+  Column,
+  CreateDateColumn,
+  Entity,
+  JoinColumn,
+  ManyToOne,
+  PrimaryColumn,
+} from "typeorm";
 import { v4 as uuidv4 } from "uuid";
+import { Category } from "./Category";
 
+@Entity("cars")
 export class Car {
+  @PrimaryColumn("uuid")
   id: string;
 
+  @Column("varchar")
   name: string;
 
+  @Column("varchar")
   description: string;
 
+  @Column("numeric")
   daily_rate: number;
 
+  @Column("boolean", { default: true })
   available: boolean;
 
+  @Column("varchar")
   license_plate: string;
 
+  @Column("numeric")
   fine_amount: number;
 
+  @Column("varchar")
   brand: string;
 
+  @ManyToOne(() => Category)
+  @JoinColumn({ name: "category_id" })
+  category: Category;
+
+  @Column("uuid")
   category_id: string;
 
+  @CreateDateColumn()
   created_at: Date;
 
   constructor() {
