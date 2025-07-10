@@ -1,6 +1,6 @@
-import { ICreateUserDTO } from "../../dtos/IcreateUserDTO";
+import { ICreateUserDTO } from "../../dtos/Icreate-user.dto";
 import { User } from "../../infra/typeorm/entities/User";
-import { IUsersRepository } from "../Iuser-repository";
+import { IUsersRepository } from "../Iuser.repository";
 
 export class UserRepositoryInMemory implements IUsersRepository {
   private users: User[] = [];

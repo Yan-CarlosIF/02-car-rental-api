@@ -1,5 +1,5 @@
 import { inject, injectable } from "tsyringe";
-import { ICategoriesRepository } from "../../repositories/Icategories-repository";
+import { ICategoriesRepository } from "../../repositories/Icategories.repository";
 
 @injectable()
 export class ListCategoriesUseCase {
