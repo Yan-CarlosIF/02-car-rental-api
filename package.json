@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "dev": "tsx --watch src/shared/infra/http/server.ts",
-    "typeorm": "tsx ./node_modules/typeorm/cli.js"
+    "typeorm": "tsx ./node_modules/typeorm/cli.js",
+    "seed:admin": "tsx src/shared/infra/typeorm/seed/admin.ts"
   },
   "keywords": [],
   "author": "",

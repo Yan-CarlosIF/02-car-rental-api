@@ -1,5 +1,15 @@
-import { createConnection } from "typeorm";
+import { Connection, createConnection } from "typeorm";
 
-createConnection().then(() => {
-  console.log("Connected to DB");
-});
+export default async (): Promise<Connection> => {
+  const connection = await createConnection()
+    .then((connection) => {
+      console.log("Connected to DB");
+      return connection;
+    })
+    .catch((error) => {
+      console.log(error);
+      return error;
+    });
+
+  return connection;
+};
