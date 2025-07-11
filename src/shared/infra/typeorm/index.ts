@@ -1,15 +1,17 @@
-import { Connection, createConnection } from "typeorm";
+import { Connection, createConnection, getConnectionOptions } from "typeorm";
 
-export default async (): Promise<Connection> => {
-  const connection = await createConnection()
-    .then((connection) => {
-      console.log("Connected to DB");
-      return connection;
+export default async (host = "database"): Promise<Connection> => {
+  const defaultOptions = await getConnectionOptions();
+
+  const connection = await createConnection(
+    Object.assign(defaultOptions, {
+      host: process.env.NODE_ENV === "test" ? "localhost" : host,
+      database: process.env.NODE_ENV === "test" ? "rent_test" : "rent-car",
     })
-    .catch((error) => {
-      console.log(error);
-      return error;
-    });
+  ).catch((error) => {
+    console.log(error);
+    return error;
+  });
 
   return connection;
 };

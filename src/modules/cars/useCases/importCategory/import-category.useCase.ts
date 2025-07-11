@@ -1,4 +1,4 @@
-import fs from "node:fs";
+import fs from "fs";
 import csvParse from "csv-parse";
 import { ICategoriesRepository } from "../../repositories/Icategories.repository";
 import { inject, injectable } from "tsyringe";

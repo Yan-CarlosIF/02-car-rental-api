@@ -1,6 +1,6 @@
 import multer from "multer";
-import { resolve } from "node:path";
-import crypto from "node:crypto";
+import { resolve } from "path";
+import crypto from "crypto";
 
 export default {
   upload(folder: string) {
