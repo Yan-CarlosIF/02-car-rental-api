@@ -3,6 +3,7 @@ import { ICreateRentalDTO } from "@modules/rentals/dtos/Icreate-rental.dto";
 import { IRentalsRepository } from "@modules/rentals/repositories/Irentals.repository";
 import { IDateProvider } from "@shared/conteiner/providers/dateProvider/Idate-provider";
 import { AppError } from "@shared/errors/app-error";
+import { ICarsRepository } from "@modules/cars/repositories/Icars.repository";
 
 @injectable()
 export class CreateRentalUseCase {
@@ -10,7 +11,9 @@ export class CreateRentalUseCase {
     @inject("RentalsRepository")
     private rentalsRepository: IRentalsRepository,
     @inject("DayjsDateProvider")
-    private dateProvider: IDateProvider
+    private dateProvider: IDateProvider,
+    @inject("CarsRepository")
+    private carsRepository: ICarsRepository
   ) {}
 
   async execute({ car_id, user_id, expected_return_date }: ICreateRentalDTO) {
@@ -48,6 +51,8 @@ export class CreateRentalUseCase {
       expected_return_date,
     });
 
+    await this.carsRepository.updateAvailable(car_id, false);
+    
     return rental;
   }
 }

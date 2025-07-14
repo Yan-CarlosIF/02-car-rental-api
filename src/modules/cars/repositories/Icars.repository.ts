@@ -7,4 +7,5 @@ export interface ICarsRepository {
   findByLicensePlate(license_plate: string): Promise<Car | undefined>;
   findAvailable(data: IFindCarDTO): Promise<Car[]>;
   findById(id: string): Promise<Car | undefined>;
+  updateAvailable(id: string, available: boolean): Promise<void>;
 }
