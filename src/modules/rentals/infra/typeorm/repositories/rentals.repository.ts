@@ -29,4 +29,11 @@ export class RentalsRepository implements IRentalsRepository {
   async findById(id: string): Promise<Rental | undefined> {
     return await this.repository.findOne(id);
   }
+
+  async findByUser(user_id: string): Promise<Rental[]> {
+    return await this.repository.find({
+      where: { user_id },
+      relations: ["car"],
+    });
+  }
 }
