@@ -11,16 +11,22 @@ export class RentalsRepository implements IRentalsRepository {
   }
 
   async findOpenRentalByCar(car_id: string): Promise<Rental | undefined> {
-    return await this.repository.findOne({ car_id });
+    return await this.repository.findOne({ where: { car_id, end_date: null } });
   }
 
   async findOpenRentalByUser(user_id: string): Promise<Rental | undefined> {
-    return await this.repository.findOne({ user_id });
+    return await this.repository.findOne({
+      where: { user_id, end_date: null },
+    });
   }
 
   async create(data: ICreateRentalDTO): Promise<Rental> {
     const rental = this.repository.create(data);
 
     return await this.repository.save(rental);
+  }
+
+  async findById(id: string): Promise<Rental | undefined> {
+    return await this.repository.findOne(id);
   }
 }
