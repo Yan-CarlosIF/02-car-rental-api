@@ -24,7 +24,7 @@ export class UserTokens {
   @JoinColumn({ name: "user_id" })
   user: User;
 
-  @Column("date")
+  @Column("timestamp")
   expires_date: Date;
 
   @CreateDateColumn()
