@@ -56,3 +56,10 @@ Content-Type: application/json
     "email": "yan@gmail.com",
     "password": "1234"
 }
+
+###
+
+# @name profile
+
+GET {{baseUrl}}/users/profile
+Authorization: Bearer {{authToken}}
