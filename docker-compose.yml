@@ -19,6 +19,11 @@ services:
       timeout: 5s
       retries: 5
 
+  redis:
+    image: redis:alpine
+    ports:
+      - 6379:6379
+
   app:
     build: .
     container_name: rent-car-api

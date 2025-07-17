@@ -12,12 +12,15 @@ import { AppError } from "@shared/errors/app-error";
 import { router } from "@shared/infra/http/routes";
 import swaggerFile from "../../../swagger.json";
 import upload from "@config/upload";
+import rateLimiter from "@shared/infra/http/middlewares/rate-limiter.middleware";
 
 createConnection();
 
 export const app = express();
 
 app.use(express.json());
+
+app.use(rateLimiter);
 
 // @ts-ignore
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerFile));
